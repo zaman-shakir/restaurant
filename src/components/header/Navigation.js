@@ -6,7 +6,7 @@ const Navigation =() =>{
     return(
         <div>
             <Navbar dark color='dark' >
-            <div class="container">
+            <div className="container">
                 <NavbarBrand href="/" >Restaurant</NavbarBrand>
             </div>
             </Navbar>
