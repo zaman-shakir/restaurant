@@ -1,11 +1,11 @@
 import React from 'react';
 import { Card, CardImg, CardImgOverlay, CardBody, CardTitle} from 'reactstrap';
 const MenuItem = (props) =>{
-    console.log(props);
+     console.log(props);
     return (
         <div>
-            <Card>
-                <CardBody>
+            <Card style={{margin:"10px"}}>
+                <CardBody >
                     <CardImg
                         width="100%"
                         alt={props.dish.name}
@@ -13,7 +13,9 @@ const MenuItem = (props) =>{
                         style={{opacity:"0.5"}}
                       />
                     <CardImgOverlay>
-                        <CardTitle style={{color:"white", fontSize:"32px" }}>{props.dish.name}</CardTitle>
+                        <CardTitle
+                        onClick={() => props.DishSelect(props.dish)}
+                        style={{color:"yellow", fontSize:"32px",cursor:"pointer" }}>{props.dish.name}</CardTitle>
                     </CardImgOverlay>
 
                 </CardBody>
