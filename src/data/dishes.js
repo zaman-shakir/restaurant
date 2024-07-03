@@ -13,7 +13,7 @@ const DISHES = [
                 id: 0,
                 rating: 5,
                 comment: "Imagine all the eatables, living in conFusion!",
-                author: "Shanto",
+                author: "Shanto1",
                 date: "2018-10-16T17:57:28.556094Z"
             },
             {
@@ -59,7 +59,7 @@ const DISHES = [
                 id: 0,
                 rating: 5,
                 comment: "Imagine all the eatables, living in conFusion!",
-                author: "Shanto",
+                author: "Shanto2",
                 date: "2018-10-16T17:57:28.556094Z"
             },
             {
@@ -105,7 +105,7 @@ const DISHES = [
                 id: 0,
                 rating: 5,
                 comment: "Imagine all the eatables, living in conFusion!",
-                author: "Shanto",
+                author: "Shanto3",
                 date: "2018-10-16T17:57:28.556094Z"
             },
             {
@@ -151,7 +151,7 @@ const DISHES = [
                 id: 0,
                 rating: 5,
                 comment: "Imagine all the eatables, living in conFusion!",
-                author: "Shanto",
+                author: "Shanto4",
                 date: "2018-10-16T17:57:28.556094Z"
             },
             {
