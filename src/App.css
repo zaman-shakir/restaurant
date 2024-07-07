@@ -1,3 +1,8 @@
 .App {
     text-align: center;
 }
+.nav-item{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
